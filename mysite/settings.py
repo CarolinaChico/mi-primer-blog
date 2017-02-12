@@ -25,7 +25,7 @@ SECRET_KEY = 'ocyxercmgh-5sa7@u2j12t3%b&k2xnlj$6=y6uog#@7a!-=0fj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['carol24.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','carol24.pythonanywhere.com']
 
 
 # Application definition
@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'blog',
 ]
 
-MIDDLEWARE = [
+MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
